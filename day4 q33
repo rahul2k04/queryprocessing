@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.random.rand(50)
+y = np.random.rand(50)
+
+plt.scatter(x, y, edgecolors='blue', facecolors='none', alpha=0.7)
+plt.title("Scatter Plot with Empty Circles")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.grid(True)
+
+plt.show()
